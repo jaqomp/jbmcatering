@@ -1,0 +1,363 @@
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+ }
+body{
+  width: auto;
+  height:100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: rgb(250,243,224);
+  background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg)
+}
+
+/* INICIO SECCION DE BIANCA */
+.Presentacion{
+  width: 100%;
+  background: rgb(250,243,224);
+  background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg);
+  margin-bottom: 50px;
+ }
+ .text{
+   font-size: 20px;
+   width: 500px;
+   height: auto;
+   padding-left: 0;
+   margin-top: 30px;
+ }
+ .tituloPre{
+   font-size: 50px;
+   font-weight: 100px;
+   text-align: end;
+   width: 100%;
+   height: auto;
+   background-color:#B68973;
+   padding-right: 10px;
+ }
+ .Cajas{
+   padding: 30px;
+   margin: auto;
+   overflow: hidden;
+ }
+ .contenidoText{
+   padding: 10px 25px;
+   width: auto;
+   margin-bottom: 0px;
+ }
+ .Nosotros{
+   width: 100%;
+ }
+ .imagesNos{
+   width: 700px;
+ }
+ .imgN1{
+   position: relative;
+   bottom: 150px;
+   left: 150px;
+   box-shadow: -20px -30px 0 0 #EABF9F;
+ }
+ .imgN2{
+   position: relative;
+   top: 240px;
+   right: 100px;
+   box-shadow: 10px 10px 10px #EABF9F;
+ }
+ .ccNos1{
+   height: 70px;
+   width: 450px;
+   background-color: #b68973;
+   position: relative;
+   top: 380px;
+   left: 200px; 
+ }
+ .ccNos2{
+   width: 200px;
+   height: 200px;
+   background-color: #1e212d;
+   position: absolute;
+   top: 260px;
+   left: 250px;
+ }
+ .Experiencias{
+   width: 100%;
+ }
+ .imagesExp{
+   margin-left: 50px;
+   width: 700px;
+   height: 600px;
+   margin-bottom: 50px;
+ }
+ .imgE1{
+   position: relative;
+   bottom: 400px;
+   box-shadow: 0 10px 40px #EABF9F;
+ }
+ .imgE2{
+   position: relative;
+   left: 300px;
+   box-shadow: 30px 10px #b68973;
+ }
+ .ccExp1{
+   width: 300px;
+   height: 550px;
+   background-color: #1e212d;
+   position: absolute;
+   top: 700px;
+   left: 800px;
+   box-shadow: -20px -30px 0 0 #faf3e0;
+ }
+ @media (max-width: 1200px){
+   .imgN1{
+     position: relative;
+     bottom: 70px;
+     left: 50px;
+     box-shadow: -20px -30px 0 0 #EABF9F;
+   }
+   .imgN2{
+     position: relative;
+     top: 150px;
+     right: 0px;
+     box-shadow: 10px 10px 10px #EABF9F;
+   }
+   .ccNos1{
+     height: 70px;
+     width: 450px;
+     background-color: #b68973;
+     position: relative;
+     top: 220px;
+     left: 0px; 
+   }
+   .ccNos2{
+     width: 200px;
+     height: 200px;
+     background-color: #1e212d;
+     position: absolute;
+     top: 50px;
+     left: 30px;
+   }
+   .Experiencias{
+     flex-direction:  column-reverse;
+   }
+   .imagesExp{
+     margin-left: 0px;
+     width: 700px;
+     height: 600px;
+     margin-bottom: 0px;
+   }
+   .ccExp1{
+     width: 250px;
+     height: 550px;
+     background-color: #1e212d;
+     position: relative;
+     top: 0;
+     left: 0;
+   }
+   .imgE1{
+     width: 250px;
+     position: relative;
+     bottom: 580px;
+     left: 20px;
+   }
+   .imgE2{
+     width: 250px;
+     position: relative;
+     bottom: 450px;
+     left: 50px;
+     right: 100px;
+     box-shadow: -20px -30px 0 0 #b68973;
+   }
+ }
+ /* FIN SECCION DE BIANCA */
+
+/* ----------------------------------------------------------------------------------- */
+
+ /* INICIO SECCION DE MARIANO */
+
+
+ /* .titulos{       
+  background: rgb(234,191,159);
+  background: linear-gradient(180deg, hsla(26, 64%, 77%, 0.781) 13%, rgba(250,243,224,1) 100%), url(../images/fondo.png);
+} */
+.opensans{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* .bg-color-main-M{
+  background: #faf3e0;
+  background: linear-gradient(180deg, hsla(44, 72%, 93%, 0.952) 0%, hsla(44, 72%, 93%, 0.945) 100%), url(../imgs/fondo.png);
+} */
+.card-title{
+  font-family: 'Open Sans Condensed', sans-serif;;
+  font-size: 25px;
+}
+.borde-carousel{
+  border-top: 13px solid;
+  border-bottom: 13px solid;
+  color: rgb(234, 191, 159);
+}
+.justify{
+  text-align: justify;
+}
+.pt-5{
+  margin-bottom: 5rem;
+}
+/* FIN SECCION DE MARIANO */
+
+/* ----------------------------------------------------------------------------------- */
+
+ .titulo{
+  height: 100px;
+  
+}
+.titulo-h2{
+  text-align: center;
+  color: rgb(252, 205, 152);
+  font-weight: bolder;;
+  font-size: 50px;
+  
+}
+.container-grande {
+  margin:60px;
+  padding: 60px;
+  background-color: #000000;
+  opacity: .6;
+}
+
+.container-sm{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  opacity:1;
+}
+.wsp{display:none}
+
+.text-margin{
+  text-align: center;
+}
+p.subtitulo{
+  text-align: center;
+  color: #ffffff;
+  ;
+  padding: 10px;
+}
+@media (max-width: 640px) {
+  p.subtitulo{
+    text-align: left;
+}
+.logoo{
+  width:3rem;
+}
+.container-grande{
+  padding:5px;
+  margin:0;
+}
+#wsp{
+  display:none;
+}
+h5, h6, footer{
+  font-size: 15px;
+}}
+
+#form{
+  background-color: #b68973;
+  padding: 20px;
+  
+  opacity: 1;
+  color:rgb(255, 255, 255)
+  
+}
+::placeholder{
+  color: rgb(0, 0, 0)
+}
+.form-label{
+  color:rgb(255, 255, 255)
+}
+
+.button-enviar{
+  text-align: center;
+}
+.btn-dark{
+  margin-top: 15px;
+}
+#wsp {
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  z-index:999;
+}
+.formulario-fondo{
+  background: rgb(250,243,224);
+  background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg)
+}
+footer{
+ margin-top: 20px; 
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+
+@media screen and (min-width:600px){
+  .footer-right > * {
+    flex: 2;
+  }
+  /* .footer-left{
+    flex:6 0px;
+  } */
+  .footer-right{
+    flex:6 0px;
+  }
+}
+@media (max-width:640px){
+  .footer{
+    padding: 15px;
+    
+}
+
+.footer-right{
+  flex:2px;
+}
+p{
+  text-align: end;
+}
+.socials{
+   padding-top: 30px;
+}
+.iconos{
+  padding-top: 10px;
+  padding-left: 70px;
+  
+}
+.breadcrumb{
+  display:none;
+}
+}
+
+.atras{
+padding-left:15px;
+  
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+.bg-dark
+{
+  color:white
+  
+}
+
+.footer-title{
+  color:rgb(214, 157, 70)
+}
+
+.logoo{
+  width: 150px;
+  padding-top:50px;
+}
+
+.copy{
+  text-align: center;
+}
+
+.linea{
+  color: rgb(90, 81, 63);
+}
