@@ -3,12 +3,67 @@
   box-sizing: border-box;
 }
 body{
+  text-align: center;
   width: auto;
   height:100%;
   font-family: 'Open Sans Condensed', sans-serif;
   background: rgb(250,243,224);
   background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg);
   margin-bottom: 50px;
+}
+header{
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical;
+  background-image: url(../images/hero.png);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar{
+  background-color: rgb(148,125,75);
+  background: linear-gradient(90deg, rgba(148,125,75,0.2978233529740021) 35%, rgba(173,136,134,0.45748721852022056) 100%);
+  padding: 0%;
+}
+
+main{
+    width: 100%;
+}
+.width-logo {
+  width: 80px;
+}
+.display-f {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+.hero-t {
+  width: 1264px;
+}
+.image-logo {
+  max-width: 100%;
+  width: 100px;
+}
+.position-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .position-bottom{
+      position: relative;
+      bottom:280px;
+  }
+.position-slogan {
+    justify-content: center;
+    position: relative;
+    bottom: 250px;
+    color: black;
+    background-color: rgb(148,125,75);
+    background: linear-gradient(90deg, rgba(148,125,75,0.2978233529740021) 35%, rgba(173,136,134,0.45748721852022056) 100%);
 }
 /* INICIO SECCION DE BIANCA */
 .Presentacion{
@@ -18,6 +73,7 @@ body{
   margin-bottom: 50px;
  }
  .text{
+   text-align: center;
    font-size: 20px;
    width: 500px;
    height: auto;
@@ -25,6 +81,7 @@ body{
    margin-top: 30px;
  }
  .tituloPre{
+   text-align: center;
    font-size: 50px;
    font-weight: 100px;
    text-align: end;
@@ -167,6 +224,10 @@ body{
    }
  }
  
+ @media (min-width: 1590px) and (max-width: 2000px) {
+ 
+ }
+ 
  /* ----------------------------------------------------------------------------------- */
 /* INICIO SECCION DE MARIANO */
 .card-title{
@@ -213,17 +274,32 @@ p.subtitulo{
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 }
+.botonformu{
+  background-color: rgb(255, 255, 255);
+}
+.imagenformu{
+  display:block;
+  margin:auto;
+}
+
 @media (max-width: 640px) {
   .container-grande {
     margin-left: 5px;}
+    .arrow{background-color: rgb(250,243,224);}
   #form{
  margin:10px
+}
+.imagenformu{
+  height: 100px;
 }
   p.subtitulo{
     text-align: left;
 }
 .logoo{
   width:3rem;
+}
+footer{
+  height: 5%;
 }
 .container-grande{
   padding:5px;
@@ -320,4 +396,24 @@ footer{
 
 .redesociales{
   padding-top: 80px;
+ }
+
+ @media (min-width: 760px) and (max-width: 2000px) {
+  .bg-dark {
+    padding: 200px;
+    
+}
+ }
+
+ .titulo-m{
+   margin-top: 150px;
+   background-color: black;
+   color:white;
+   background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,47,26,0.4430147058823529) 100%, rgba(0,212,255,1) 100%);
+
+ }
+ .fondo-menu{
+   background-color: hsla(22, 35%, 58%, 0.555);
+   color: rgb(0, 0, 0);
  }
