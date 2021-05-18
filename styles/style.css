@@ -1,4 +1,5 @@
-*{margin: 0;
+*{
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -22,10 +23,8 @@ header{
   position: relative;
 }
 .navbar{
-  background-color: #e6c8b2d2;
-  
+  background-color: #e6c8b2d2;  
 }
-
 main{
     width: 100%;
 }
@@ -45,26 +44,24 @@ main{
   width: 100px;
 }
 .position-logo {
-    display: flex;
-    justify-content: center;
-  }
-  .position-bottom{
-      position: relative;
-      bottom:280px;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+.position-bottom{
+  position: relative;
+  bottom:280px;
+}
+ 
 .position-slogan {
   height: 100px;
   padding-top: 30px;
-    justify-content: left;
-    position: relative;
-    bottom:200px;
-    color: rgb(230, 213, 176);
-    background-color: rgb(230, 213, 176);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.89) 35%, rgba(0, 0, 0, 0.678) 100%);
-    
+  justify-content: left;
+  position: relative;
+  bottom:200px;
+  color: rgb(230, 213, 176);
+  background-color: rgb(230, 213, 176);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.89) 35%, rgba(0, 0, 0, 0.678) 100%);    
 }
-
 @media (max-width: 640px) {
   .video{
     margin-top: 89px;
@@ -72,13 +69,14 @@ main{
   }
   .position-slogan{
   position: relative;
-    bottom:7px;}
+  bottom:7px;
+  }
 }
 /* FIN HEADER MAURO */
 /* INICIO SECCION DE BIANCA */
 @media (max-width: 1200px){
   .Experiencias{
-    flex-direction:  column-reverse;
+  flex-direction:  column-reverse;
   }
 }
 .Experiencias{
@@ -89,13 +87,13 @@ main{
 }
 .imagesNos{
   height: max-content;
-background-color: #1e212d;
+  background-color: #1e212d;
 }
 .imgN1{
-box-shadow: -20px -30px 0 0 #EABF9F;
+  box-shadow: -20px -30px 0 0 #EABF9F;
 }
 .imgN2{
-box-shadow: 20px 30px #EABF9F;
+  box-shadow: 20px 30px #EABF9F;
 }
 .text{ 
   font-size: 20px;
@@ -119,7 +117,7 @@ box-shadow: 20px 30px #EABF9F;
   margin-bottom: 0px;
 }
 .imagesExp{
-background-color: #eabf9f;
+  background-color: #eabf9f;
 }
 .imgE2{
   box-shadow: -20px -30px 0 0 #1e212d;
@@ -128,9 +126,7 @@ background-color: #eabf9f;
   box-shadow: 40px 30px #b68973;
   margin-top: 150px;
 }
-
- 
- /* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
 /* INICIO SECCION DE MARIANO */
 .card-title{
   font-size: 25px;
@@ -143,7 +139,6 @@ background-color: #eabf9f;
 .justify{
   text-align: justify;
 }
-
 /* FIN SECCION DE MARIANO */
 /* ----------------------------------------------------------------------------------- */
 /* INICIO SECCION DE JACQUELINE */
@@ -157,7 +152,7 @@ background-color: #eabf9f;
   font-weight: bolder;;
   font-size: 50px;
 }
-.container-grande {
+.container-grande{
   margin:60px;
   padding: 60px;
   background-color: #1e212d;
@@ -186,7 +181,6 @@ p.subtitulo{
   display:block;
   margin:auto;
 }
-
 @media (max-width: 640px) {
   .titulo{
     margin-top: 20px;
@@ -206,58 +200,57 @@ p.subtitulo{
     margin-left: 5px;
     padding:5px;
     margin:0;
+  } 
+  .arrow{
+    background-color: rgb(250,243,224);
   }
- 
-  .arrow{background-color: rgb(250,243,224);}
   #form{
- margin:10px
-}
-.imagenformu{
-  height: 100px;
-}
+    margin:10px
+  }
+  .imagenformu{
+    height: 100px;
+  }
   p.subtitulo{
     text-align: left;
-}
-.logoo{
-  width:3rem;
-}
-footer{
-  height: 5%;
-}
-.row-formu{
-  padding-bottom: 50px;
-}
-#wsp{
-  display:none;
-}
-h5, h6, footer{
-  font-size: 15px;
-}
-.footer{
-  padding: 15px;
-  
-}
-.titulo-h2{
-padding-top: 30px;
-padding-bottom: 10px;
-font-size: 35px;
-}
-.sub{
-padding-top: 30px;
-}
-p.subtitulo{
-  padding-left: 15px;
-  text-align: center;
-  font-size: 16px;
-}
-#atras{
-margin:100px;
-padding:20px;
-}
-.services{
-display:none;
-}
-
+  }
+  .logoo{
+    width:3rem;
+  }
+  footer{
+    height: 5%;
+  }
+  .row-formu{
+    padding-bottom: 50px;
+  }
+  #wsp{
+    display:none;
+  }
+  h5, h6, footer{
+    font-size: 15px;
+  }
+  .footer{
+    padding: 15px;  
+  }
+  .titulo-h2{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+  }
+  .sub{
+    padding-top: 30px;
+  }
+  p.subtitulo{
+    padding-left: 15px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #atras{
+    margin:100px;
+    padding:20px;
+  }
+  .services{
+    display:none;
+  }
 }
 #form{
   background-color: #b68973;
@@ -279,16 +272,16 @@ display:none;
 #wsp {
   position: fixed;
   bottom: 50px;
- right: 0;
- z-index:999;
+  right: 0;
+  z-index:999;
 }
 .formulario-fondo{
   padding-top: 90px;
   background: rgb(250,243,224);
   background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg)
-}z
+}
 footer{
- height: 100%;
+  height: 100%;
   color: white;
 }
 #atras{
@@ -313,28 +306,44 @@ footer{
 .redesociales{
   padding-top: 80px;
  }
- @media (min-width: 760px) and (max-width: 2000px) {
-  .bg-dark {
-    padding: 200px;
+@media (min-width: 760px) and (max-width: 2000px) {
+  
+  #mapa{
+    width:400px;
+    height: 200px;
+  }
 }
+@media (min-width: 645px) and (max-width: 800px) {
+ #mapa{
+   width:400px;
+   height: 200px;
+  }
 }
- /* INICIO MAURICIO */
 
- .menu{
-   margin-top: 20px;
-   margin-bottom: 50px;
-   background-color: hsla(34, 71%, 73%, 0.541);
- }
+/* INICIO MAURICIO */
+.menu{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: hsla(33, 37%, 62%, 0.698);
+}
 .opensans{
-font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+ .title-carta{
+  background-color: rgba(10, 10, 10, 0.719);
+  padding-bottom: 30px;
+  color:#faf3e0;
 }
 .bg-carta{
   padding-top: 70px;
-  background: linear-gradient(90deg, hsla(44, 72%, 93%, 0) 50%, hsla(20, 31%, 58%, 0) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg);
+  
 }
 .bg-boton{
-  background-color:#b68973;
-color:rgb(0, 0, 0);
+  width: 2px;
+  background-color:#55534e;
+  color:rgb(238, 212, 184);
 }
-
+.cont{
+  background-color: rgba(139, 94, 42, 0.377);
+}
 /* FIN MAURICIO */
