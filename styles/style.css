@@ -51,7 +51,6 @@ main{
   position: relative;
   bottom:280px;
 }
- 
 .position-slogan {
   height: 100px;
   padding-top: 30px;
@@ -126,7 +125,49 @@ main{
   box-shadow: 40px 30px #b68973;
   margin-top: 150px;
 }
-/* ----------------------------------------------------------------------------------- */
+.btn{
+  background-color: #1e212d;
+  color: #faf3e0;
+}
+.masInfo{
+  padding-top: 10%;
+}
+.primerT{
+  text-align: start;
+  font-size: medium;
+  font-weight: 700;
+  color: #b68973;
+  margin: 0;
+}
+.segT{
+  text-align: left;
+  color: #1e212d;
+  font-weight: 600;
+}
+.textInfo{
+  text-align: left;
+  margin-bottom: 10px;
+}
+.caracteristicas{
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+  background-color: #1e212d;
+  justify-content: space-around;
+}
+.boxCar{
+  text-align: center;
+  color: #faf3e0;
+  font-size: 20px;
+}
+.logos{
+  background-color: #1e212d;
+}
+.Gif{
+  display: flex;
+  justify-content: center;
+}
+/* FIN SECCION DE BIANCA */
 /* INICIO SECCION DE MARIANO */
 .card-title{
   font-size: 25px;
@@ -140,7 +181,6 @@ main{
   text-align: justify;
 }
 /* FIN SECCION DE MARIANO */
-/* ----------------------------------------------------------------------------------- */
 /* INICIO SECCION DE JACQUELINE */
 .titulo{
   height: 100px;
@@ -306,8 +346,7 @@ footer{
 .redesociales{
   padding-top: 80px;
  }
-@media (min-width: 760px) and (max-width: 2000px) {
-  
+@media (min-width: 760px) and (max-width: 2000px) { 
   #mapa{
     width:400px;
     height: 200px;
@@ -319,7 +358,6 @@ footer{
    height: 200px;
   }
 }
-
 /* INICIO MAURICIO */
 .menu{
   margin-top: 20px;
@@ -336,7 +374,6 @@ footer{
 }
 .bg-carta{
   padding-top: 70px;
-  
 }
 .bg-boton{
   width: 2px;
