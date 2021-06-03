@@ -15,7 +15,6 @@ body{
 /* INICIO HEADER MAURO */
 header{
   width: 100%;
-  /* background-image: url(../images/hero.png); */
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -384,7 +383,7 @@ footer{
    height: 200px;
   }
 }
-/* INICIO MAURICIO */
+/* INICIO SECTION MAURICIO */
 .menu{
   margin-top: 20px;
   margin-bottom: 50px;
@@ -445,3 +444,15 @@ color: #FAF3E0;
 .backmodal{
   background: rgb(30,33,45,0.55);
 }
+@media (min-width: 355px) and (max-width: 800px) {
+  #title-carta{
+    font-size: 30px;
+   }
+   .sub-carta{
+     font-size: 15px;
+   }
+   .heroMenu{
+     height: 50vh;
+   }
+ }
+/* FIN SECTION MAURICIO */
