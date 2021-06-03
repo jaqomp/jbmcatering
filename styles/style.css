@@ -7,7 +7,7 @@ body{
   text-align: center;
   width: auto;
   height:100%;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-amily: 'Open Sans Condensed', sans-serif;
   background: rgb(250,243,224);
   background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg);
   margin-bottom: 50px;
@@ -149,7 +149,8 @@ main{
   margin-bottom: 10px;
 }
 .caracteristicas{
-  padding: 0%;
+  padding: 0;
+  margin:0;
   height: 10%;
   width: 100%;
   background-color: #1e212d;
@@ -189,7 +190,7 @@ main{
   padding-top: 20px;
   text-align: center;
   color: #eabf9f;
-  font-weight: bolder;
+  font-weight: bolder; 
   font-size: 50px;
 }
 .container-grande{
@@ -214,12 +215,34 @@ p.subtitulo{
 .maps{
   padding-top: 50px;
 }
+.arrow{
+  padding-bottom:20px;
+}
 .botonformu{
   background-color: rgb(255, 255, 255);
 }
 .imagenformu{
   display:block;
   margin:auto;
+}
+.bg-dark{
+  background-color: #1e212d!important;
+}
+.letra-footer{
+  color:white;
+  text-decoration: none;
+}
+.letra-footer:hover{
+  color:rgb(214, 157, 70);
+}
+.btn-floating{
+  font-size: 30px;
+}
+.fab:hover{
+  color: rgb(214, 157, 70);
+}
+.jbmfooter:hover{
+  color:white;
 }
 @media (max-width: 640px) {
   .titulo{
@@ -291,6 +314,9 @@ p.subtitulo{
   .services{
     display:none;
   }
+  .bg-dark{
+    padding-top: 30px!important;
+  }
 }
 #form{
   background-color: #b68973;
@@ -330,7 +356,7 @@ footer{
   color:rgb(0, 0, 0);
 }
 .footer-title{
-  color:rgb(214, 157, 70)
+  color:rgb(214, 157, 70);
 }
 .logoo{
   width: 150px;
@@ -350,7 +376,7 @@ footer{
   #mapa{
     width:400px;
     height: 200px;
-  }
+  } 
 }
 @media (min-width: 645px) and (max-width: 800px) {
  #mapa{
@@ -362,13 +388,12 @@ footer{
 .menu{
   margin-top: 20px;
   margin-bottom: 50px;
-  background-color: hsla(33, 37%, 62%, 0.698);
+  background-color: hsla(228, 19%, 15%, 0.815);
 }
-.opensans{
-  font-family: 'Open Sans Condensed', sans-serif;
+.carousel-inner{
+  box-shadow: -20px 0px 20px -7px #000000, 20px 0px 20px -7px #000000, inset 5px 5px 15px 5px rgba(250,243,224,0.98);
 }
- .title-carta{
-  background-color: rgba(10, 10, 10, 0.719);
+.title-carta{
   padding-bottom: 30px;
   color:#faf3e0;
 }
@@ -380,7 +405,43 @@ footer{
   background-color:#55534e;
   color:rgb(238, 212, 184);
 }
-.cont{
-  background-color: rgba(139, 94, 42, 0.377);
+.heroMenu{
+  width: 100%;
+  height: 70vh;
+  background: rgb(30,33,45);
+  background: linear-gradient(0deg, hsla(228, 19%, 15%, 0.616) 19%, hsla(44, 72%, 93%, 0.575) 84%), url(../images/Menu1.jpg);
+  background-size: 100% 100%;
 }
-/* FIN MAURICIO */
+.tituloMenu{
+  color: #faf3e0;
+  text-align: center;
+  padding-top: 1rem;
+}
+.boxMenu{
+  background-color: hsla(228, 19%, 15%, 0.815);
+}
+.bgmodal{
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,0.5326505602240896) 60%, rgba(0,0,0,0.75) 95%);
+}
+.textHM{
+  color: #faf3e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.textHM h1{
+  font-size: 500%;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 2px 2px 2px rgba(206,89,55,0);
+color: #FAF3E0;
+}
+.line{
+  width: auto;
+  height: 2px;
+  background: rgba(0,0,0,0.75);
+}
+.backmodal{
+  background: rgb(30,33,45,0.55);
+}
