@@ -7,7 +7,7 @@ body{
   text-align: center;
   width: auto;
   height:100%;
-  font-amily: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   background: rgb(250,243,224);
   background: linear-gradient(90deg, hsla(44, 72%, 93%, 0.568) 22%, hsla(20, 31%, 58%, 0.486) 61%), url(../images/fondo-fondo-pantalla-marmol-textura-dorada-blanca_28629-691.jpg);
   margin-bottom: 50px;
